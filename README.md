@@ -13,7 +13,7 @@ A basic skeletal code was followed across all the notebooks that implements the 
 
 
 
-## 🛠 Implemented Optimization Algorithms
+## Implemented Optimization Algorithms
 
 Various gradient descent techniques were built from scratch to manage the weight updates during training:
 
@@ -26,11 +26,11 @@ Various gradient descent techniques were built from scratch to manage the weight
 | **RMSProp** | Uses an exponentially decaying average of squared gradients. |
 | **AdaDelta** | An extension that removes the need for a manually set global learning rate. |
 
-## 💡 Motivation
+## Motivation
 
 The primary purpose of this repository is **deep learning interview preparation** and **fundamental knowledge reinforcement**. By avoiding high-level frameworks (like PyTorch or TensorFlow) and writing the code manually, I ensured a comprehensive understanding of the math and calculus behind the entire training process.
 
-## 📚 Source
+## Source
 
 The concepts and techniques implemented here were heavily influenced by the educational content provided by **Vizuara**.
 
