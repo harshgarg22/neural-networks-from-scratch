@@ -23,7 +23,7 @@ Various gradient descent techniques were built from scratch to manage the weight
 | **Learning Rate Decay** | Gradually reduces the learning rate over epochs. |
 | **Momentum** | Uses a velocity term to accelerate training. |
 | **AdaGrad** | Adaptive learning rates per parameter based on past gradients. |
-| **RMSProp** | Uses an moving average of squared gradients. |
+| **RMSProp** | Uses a moving average of squared gradients. |
 | **AdaDelta** | An extension that removes the need for a manually set global learning rate. |
 | **ADAM** | A combination of Adaptive Learning Rate based techniques and momentum based techniques|
 
