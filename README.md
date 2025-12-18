@@ -19,7 +19,7 @@ Various gradient descent techniques were built from scratch to manage the weight
 
 | Optimizer | Core Mechanism |
 | :--- | :--- |
-| **Vanilla Gradient Descent** | Standard descent using a fixed learning rate. |
+| **Vanilla Gradient Descent** | Standard desgit cent using a fixed learning rate. |
 | **Learning Rate Decay** | Gradually reduces the learning rate over epochs. |
 | **Momentum** | Uses a velocity term to accelerate training. |
 | **AdaGrad** | Adaptive learning rates per parameter based on past gradients. |
@@ -27,6 +27,7 @@ Various gradient descent techniques were built from scratch to manage the weight
 | **AdaDelta** | An extension that removes the need for a manually set global learning rate. |
 | **ADAM** | A combination of Adaptive Learning Rate based techniques and momentum based techniques|
 
+Please note that the performance of individual optimizers may not be like what you see when you use SOTA modules and libraries, and that is because the weights and biases are subject to random initialization. 
 ## Motivation
 
 The primary purpose of this repository is **deep learning interview preparation** and **fundamental knowledge reinforcement**. By avoiding high-level frameworks (like PyTorch or TensorFlow) and writing the code manually, I ensured a comprehensive understanding of the math and calculus behind the entire training process.
